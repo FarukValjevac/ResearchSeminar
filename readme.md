@@ -12,7 +12,7 @@ Make sure your xlsx file is closed while saving with python, otherwise your will
 
 << keyring.set_password("any_key_name", "your_mail", "your_password") -> I would not recommend to do this in a script, because in the script your password will be visible if someone has it - instead do it only in the console of your python intepreter.
 
-The first parameter ot the set_password methos is the key, second is your mail, and third is your password
+The first parameter of the set_password methos is the key, second is your mail, and third is your password
 
 - Your password will be saved to the OS and can be retrieved with the following command (as in the example - config.py):
 
