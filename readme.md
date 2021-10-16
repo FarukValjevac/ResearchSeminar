@@ -22,11 +22,11 @@ The method get_password returns your password which is stored in the OS by putti
 
 ## Usage:
 
-- Close the repo from github to your computer by pressing the download button or with the git-clone command followed by the link in github.
-- Create a virtual environment by typing python -m venv env to your console (optional).
-- In order to install all the required libraries to your python interpreter type "pip install -r /path/to/requirements.txt" in the console.
+- Close the repo from github to your computer by pressing the download button or with the "git-clone" command followed by the link in github.
+- Create a virtual environment by typing "python -m venv env" to your console (optional).
+- In order to install all the required libraries to your python interpreter type "pip install -r /path/to/requirements.txt" in the console - or do it automatically if your IDE supports this function.
 - Setup your config.py file by writing the query, num_page, sender, password with the keyring.get_password method.
-- Run the main
+- Run the Main.py
 
 
 Video of working example: https://www.loom.com/share/5af8eb7b53e8484ba6a4a3117de1983e
